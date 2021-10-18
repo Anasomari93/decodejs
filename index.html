@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decode javascript</title>
+    <link rel="icon" href="img/icon.jpg">
+    <style>
+        body{
+            background-color: turquoise;
+        }
+        header{
+            width: 100%;
+            max-width: 100%;
+            height:100px;
+            background-color: rgb(32, 245, 245);
+            border-radius: 20px;
+        }
+        header nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        header img{
+            max-width: 100px;
+            float: right;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        header h1{
+            float: left;
+            padding-top:10px ;
+            padding-left:10px ;
+        }
+      
+        #main{
+            width: 100%;
+            max-width: 100%;
+            
+            
+            
+        }
+        #main div{
+            display: flex;
+            justify-content: center;
+        }
+        #main p{
+            width: 100%;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 0;
+            
+            
+        }
+        #main select{
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+            border: 3px solid steelblue;
+            outline: none;
+        }
+        #main textarea{
+            width: 100%;
+            min-height: 200px;
+            outline: none;
+            border: 2px solid red;
+            border-radius: 10px;
+            margin-top: 20px;
+            
+        }
+        #main select option{
+            width: 100%;
+            padding: 20px;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <header>
+        <nav>
+            <h1>Decode javascript</h1>
+            <img src="./img/icon1.jpg" alt="">
+        </nav>
+    </header>
+    <main id="main">
+        <p>Text - النص </p>
+        <select id="select">
+            <option value="encode">تشفير النص </option>
+            <option value="decode">فك تشفير النص </option>
+        </select>
+        <div>
+            <textarea id="text1" ></textarea>
+        </div>
+        
+        <p>Result - النتيجة </p>
+        <div>
+            <textarea id="text2"></textarea>
+        </div>
+        
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
